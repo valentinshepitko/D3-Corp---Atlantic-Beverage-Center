@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+.container {
+  max-width: 1530px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  background-image: url("../../../../src/img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 850px;
+  position: relative;
+}
+.header__holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.header__logo-holder {
+  max-width: 250px;
+  padding-top: 30px;
+}
+.header__logo {
+  font-family: "Righteous", cursive;
+  font-size: 57px;
+  color: white;
+  line-height: 44px;
+}
+.header__hours {
+  font-size: 15px;
+  font-family: "Noto Sans", sans-serif;
+  padding-bottom: 15px;
+  text-align: end;
+}
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.header__nav-link {
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 21px;
+}
+.header__content {
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 250px;
+}
+.header__title {
+  font-family: "Limelight", cursive;
+  font-size: 80px;
+  font-weight: 400;
+  padding-bottom: 110px;
+}
+.header__button {
+  width: 210px;
+  height: 60px;
+  background-color: #af2828;
+  color: white;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+}
+/*# sourceMappingURL=main.css.map */
