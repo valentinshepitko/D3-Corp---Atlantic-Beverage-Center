@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9e7b00;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <rect id="background_line_-_rectangle" data-name="background line - rectangle" class="cls-1" x="3" y="3" width="1434" height="354"/>
+</svg>

@@ -1,0 +1,41 @@
+.footer{
+  background-color: #270f0f;
+
+  &__line{
+    border-top: 2px solid #9e7b00;
+  }
+
+  &__title{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    padding-top: 75px;
+    padding-bottom: 45px;
+    letter-spacing: 3px;
+  }
+
+  &__content{
+    margin: 0 auto;
+    max-width: 445px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  &__address{
+    padding-bottom: 10px;
+  }
+
+  &__working-hours{
+    padding-bottom: 25px;
+  }
+
+  &__copyright{
+    padding-bottom: 10px;
+  }
+
+  &__decor{
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+}

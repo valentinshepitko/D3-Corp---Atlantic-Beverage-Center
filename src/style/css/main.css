@@ -73,6 +73,9 @@ img {
   font-family: "Righteous", cursive;
   font-size: 21px;
 }
+.header__nav-link:hover {
+  color: #af2828;
+}
 .header__content {
   text-align: center;
   padding-top: 125px;
@@ -82,7 +85,7 @@ img {
   font-family: "Limelight", cursive;
   font-size: 80px;
   font-weight: 400;
-  padding-bottom: 110px;
+  padding-bottom: 90px;
 }
 .header__button {
   width: 210px;
@@ -92,5 +95,184 @@ img {
   padding: 20px 35px;
   font-size: 20px;
   font-family: "Righteous", cursive;
+}
+.header__button:hover {
+  background-color: #670909;
+  transition: ease-in 0.3s;
+}
+
+.about {
+  background-color: #270f0f;
+}
+.about__holder {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 75px;
+}
+.about__decor-holder {
+  position: relative;
+}
+.about__decor {
+  position: absolute;
+  left: -121px;
+  top: -135px;
+}
+.about__content-holder {
+  padding-top: 225px;
+  margin-right: 170px;
+}
+.about__title {
+  font-family: "Limelight", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  padding-bottom: 45px;
+}
+.about__text {
+  max-width: 590px;
+  padding-bottom: 80px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 35px;
+}
+.about__photo-holder {
+  position: relative;
+}
+.about__photo {
+  padding-top: 175px;
+}
+.about__rectangle {
+  position: absolute;
+  top: 115px;
+  left: 70px;
+}
+
+.award {
+  background-image: url("../../../../src/img/velvet-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.award__title-holder {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 55px;
+}
+.award__title {
+  font-family: "Limelight", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  padding-bottom: 25px;
+}
+.award__products-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.award__image-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.award__image-holder {
+  position: relative;
+  z-index: 1;
+}
+.award__image1 {
+  padding-right: 55px;
+}
+.award__rectangle {
+  position: absolute;
+  top: 395px;
+}
+.award__button-holder {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 69px;
+}
+.award__button {
+  width: 210px;
+  height: 60px;
+  background-color: #9e7b00;
+  color: white;
+  padding: 21px 40px;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+}
+
+.inventory {
+  background-color: #270f0f;
+}
+.inventory__title {
+  font-family: "Limelight", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  padding-bottom: 85px;
+  text-align: center;
+  padding-top: 165px;
+}
+.inventory__column-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px;
+  justify-content: center;
+  padding-bottom: 85px;
+}
+.inventory__link-holder {
+  padding-top: 25px;
+}
+.inventory__link {
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+  color: white;
+}
+.inventory__button-holder {
+  text-align: center;
+  padding-bottom: 125px;
+}
+.inventory__button {
+  color: white;
+  width: 260px;
+  height: 60px;
+  background-color: #af2828;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+  padding: 25px;
+}
+
+.footer {
+  background-color: #270f0f;
+}
+.footer__line {
+  border-top: 2px solid #9e7b00;
+}
+.footer__title {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-size: 44px;
+  padding-top: 75px;
+  padding-bottom: 45px;
+  letter-spacing: 3px;
+}
+.footer__content {
+  margin: 0 auto;
+  max-width: 445px;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footer__address {
+  padding-bottom: 10px;
+}
+.footer__working-hours {
+  padding-bottom: 25px;
+}
+.footer__copyright {
+  padding-bottom: 10px;
+}
+.footer__decor {
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

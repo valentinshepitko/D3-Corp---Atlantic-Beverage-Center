@@ -1,0 +1,63 @@
+.award{
+  background-image: url("../../../../src/img/velvet-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+
+  &__title-holder{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 55px;
+  }
+
+  &__title{
+    font-family: 'Limelight', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 25px;
+  }
+
+  &__products-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+
+  &__image-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__image-holder{
+    position: relative;
+    z-index: 1;
+  }
+
+  &__image1{
+    padding-right: 55px;
+  }
+
+
+  &__rectangle{
+    position: absolute;
+    top: 395px;
+  }
+
+  &__button-holder{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 69px;
+  }
+
+  &__button{
+    width: 210px;
+    height: 60px;
+    background-color: #9e7b00;
+    color: white;
+    padding: 21px 40px;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+  }
+}

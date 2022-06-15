@@ -1,0 +1,45 @@
+.inventory{
+  background-color: #270f0f;
+
+  &__title{
+    font-family: 'Limelight', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 85px;
+    text-align: center;
+    padding-top: 165px;
+  }
+
+  &__column-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    justify-content: center;
+    padding-bottom: 85px;
+  }
+
+  &__link-holder{
+    padding-top: 25px;
+  }
+
+  &__link{
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    color: white;
+  }
+
+  &__button-holder{
+    text-align: center;
+    padding-bottom: 125px;
+  }
+
+  &__button{
+    color: white;
+    width: 260px;
+    height: 60px;
+    background-color: #af2828;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    padding: 25px;
+  }
+}
